@@ -46,7 +46,7 @@ class _AplikasiIbnuState extends State<AplikasiIbnu> {
                   ])),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: <Widget>[
                   Text(
                     angka.toString(),
                     style: TextStyle(fontSize: 12 + angka),

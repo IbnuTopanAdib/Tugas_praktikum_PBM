@@ -56,7 +56,7 @@ class _AplikasiIbnuState extends State<AplikasiIbnu> {
                   ])),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
+                children: <Widget>[
                   keliatan == true
                       ? Text(
                           nama_asli,
